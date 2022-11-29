@@ -33,9 +33,127 @@
     alert('Hola');
 }</pre>
 
+<pre>
+ ____
+/    \
+|    |
+\____/
+</pre>
+
+<pre>Texto de prueba
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Inventore doloribus adipisci odit minima veritatis quam ad enim
+    libero aspernatur? Commodi nihil laborum eos tempore praesentium
+    mollitia deleniti quaerat quibusdam ipsum.
+
+
+</pre>
+                <p>
+                    En la salada orilla,<br>
+                    no tengo ni idea de lo que brilla,<br>
+                    aunque pilla lo que pilla...<br>
+                </p>                
+
+                <p>5&lt;p a&#x1F604;b 😄</p>
+
                 <p>Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing.</p>
                 <p>Lorem <em>ipsum</em> dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptate nobis ad, repellat aut saepe quod corrupti voluptatibus ut corporis id, tempora similique laborum sed deleniti labore ab velit maxime.</p>
+            </section>
+
+            <section id="listas">
+                <h3>Listas</h3>
+
+                <ul>
+                    <li>Lista sin orden 1</li>
+                    <li>Lista sin orden 2</li>
+                    <li>Lista sin orden 3</li>
+                    <li>Lista sin orden 4</li>
+                    <li>Lista sin orden 5</li>
+                </ul>
+
+                <ol>
+                    <li>Lista ordenada 1</li>
+                    <li>Lista ordenada 2</li>
+                    <li>Lista ordenada 3</li>
+                    <li>Lista ordenada 4</li>
+                    <li>Lista ordenada 5</li>
+                </ol>
+
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Hyper Text Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>Cascade Style Sheets</dd>
+                    <dt>Lorem, ipsum dolor.</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat, perspiciatis quibusdam fuga aut est itaque eveniet sed temporibus corrupti exercitationem obcaecati quidem impedit dolor. Commodi, nihil. At, suscipit sit.</dd>
+                </dl>
+
+                <ol>
+                    <li>Título 1</li>
+                    <li>Título 2</li>
+                    <li>Título 3
+                        <ol>
+                            <li>Subtítulo 1</li>
+                            <li>Subtítulo 2</li>
+                        </ol>
+                    </li>
+                    <li>Título 4</li>
+                </ol>
+            </section>
+
+            <section id="tablas">
+                <h3>Tablas</h3>
+
+                <!-- table>caption>{Título de la tabla con Emmet}^thead>tr>th*3>{Campo $} -->
+
+                <table>
+                    <caption>Título de la tabla</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellidos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- tr*2>td*3>lorem3 -->
+                        <!-- tr*5>th[scope="row"]>{ID$}^td>{Nombre$}^td>{Apellidos$} -->
+                        <tr>
+                            <th scope="row">ID1</th>
+                            <td>Nombre1</td>
+                            <td>Apellidos1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ID2</th>
+                            <td>Nombre2</td>
+                            <td>Apellidos2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ID3</th>
+                            <td>Nombre3</td>
+                            <td>Apellidos3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ID4</th>
+                            <td>Nombre4</td>
+                            <td>Apellidos4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ID5</th>
+                            <td>Nombre5</td>
+                            <td>Apellidos5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellidos</th>
+                        </tr>
+                    </tfoot>
+                </table>
             </section>
         </article>
     </main>
