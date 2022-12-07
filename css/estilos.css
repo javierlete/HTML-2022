@@ -294,3 +294,131 @@ footer {
     padding: var(--margen-mediano);
     text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    body > nav ul, body > aside ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #parrafos, #listas, #multimedia {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        align-items: flex-start;
+    }
+
+    #parrafos > *, #listas > *, #multimedia > * {
+        flex-grow: 1;
+    }
+
+    #listas > dl {
+        order: 1;
+    }
+
+    #multimedia > * {
+        width: 50%;
+    }
+
+    section > h3 {
+        width: 100% !important;
+    }
+
+    body > footer {
+        text-align: left;
+    }
+
+    #formularios {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto 1fr;
+
+    }
+
+    #formularios h3 {
+        grid-column-end: span 2;
+    }
+
+    #formularios form:nth-of-type(2) {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    #formularios form:last-of-type {
+        grid-row-end: span 2;
+    }
+
+    .contenedor {
+        padding-bottom: calc(56.25%/2); /* 9/16 */
+    }
+}
+
+@media (min-width: 1024px) {
+    form:last-of-type fieldset {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    form:last-of-type fieldset > * {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1440px) {
+    article > h2 {
+        grid-area: titulo;
+    }
+
+    #parrafos {
+        grid-area: parrafos;
+    }
+
+    #listas {
+        grid-area: listas;
+    }
+
+    #tablas {
+        grid-area: tablas;
+    }
+
+    #multimedia {
+        grid-area: multimedia;
+    }
+
+    #formularios {
+        grid-area: formularios;
+    }
+
+    #html {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        gap: 1rem;
+
+        grid-template-areas: 
+            "titulo titulo titulo"
+            "parrafos listas tablas"
+            "multimedia formularios formularios";
+    }
+
+    #multimedia > * {
+        width: 100%;
+    }
+
+    .contenedor {
+        padding-bottom: 56.25%; /* 9/16 */
+    }
+}
+
+@media (min-width: 2560px) {
+    #html {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "parrafos listas multimedia"
+            "tablas tablas multimedia"
+            "formularios formularios multimedia";
+    }
+}
