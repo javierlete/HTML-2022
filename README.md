@@ -22,3 +22,22 @@
 
 * Uniwebsidad https://uniwebsidad.com/libros/javascript
 * FreeCodeCamp https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+
+#Ejercicios JavaScript
+
+## Nivel 1
+
+* Adivina el número (un cuadro de texto y un botón aceptar)
+* Buscaminas básico. (Igual que submarinos pero pierdes cuando aciertas)
+* Calculadora con dos cuadros de texto, un desplegable para elegir operación y un botón igual
+* Tres en raya
+
+## Nivel 2
+
+* Buscaminas con números alrededor de cada prueba
+* Colocación de los submarinos con separación entre ellos
+
+## Nivel 3
+
+* Calculadora con botonera de verdad que se puede utilizar sólo con el ratón
+* Guerra de barcos con diferentes longitudes de barcos
