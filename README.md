@@ -28,6 +28,9 @@
 ## Nivel 1
 
 * Adivina el número (un cuadro de texto y un botón aceptar)
+  * Añadir intentos
+  * Que se pueda repetir sin recargar
+  * Que se pueda elegir entre qué números se quiere hacer el juego 
 * Buscaminas básico. (Igual que submarinos pero pierdes cuando aciertas)
 * Calculadora con dos cuadros de texto, un desplegable para elegir operación y un botón igual
 * Tres en raya
