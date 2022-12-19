@@ -1,0 +1,14 @@
+html, body, #tablero {
+    margin: 0;
+    height: 100%;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+#tablero > button {
+    border: 1px solid black;
+}
