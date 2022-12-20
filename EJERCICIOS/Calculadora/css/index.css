@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, main {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+#display {
+    width: 100%;
+    text-align: right;
+}
+
+#botonera {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input, button {
+    border: 1px solid gray;
+    font-size: calc(100vh/9);
+}
